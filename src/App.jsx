@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <div className="flex-grow mx-5 my-5 p-5 rounded-lg shadow-lg w-auto h-full bg-white">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/my-site/" element={<Home />} />
             {/* <Route path="/about" element={<About />} */}
             {/* <Route path="/services" element={<Services />} */}
             {/* <Route path="/contact" element={<Contact />} */}

@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a', // Sostituisci con il tuo colore primario desiderato
-        languageSelector: '#192542', // Sostituisci con il tuo colore primario desiderato
+        primary: '#0f172a', 
+        languageSelector: '#192542', 
+        'primary-light': '#1e293b',
+        'primary-lighter': '#4b5563',
       },
     },
   },
