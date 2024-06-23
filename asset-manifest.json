@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.2e74706f.css",
-    "main.js": "/my-site/static/js/main.fc32c0af.js",
+    "main.css": "/my-site/static/css/main.803b6491.css",
+    "main.js": "/my-site/static/js/main.c51843e6.js",
     "static/js/488.0f79a0a3.chunk.js": "/my-site/static/js/488.0f79a0a3.chunk.js",
+    "static/media/UdemyCertificateCypress.pdf": "/my-site/static/media/UdemyCertificateCypress.9d35d09b4ff803c9060f.pdf",
+    "static/media/Diego_Nosari_CV_ita.pdf": "/my-site/static/media/Diego_Nosari_CV_ita.ce07b6ecaa484a86131b.pdf",
+    "static/media/Diego_Nosari_CV_eng.pdf": "/my-site/static/media/Diego_Nosari_CV_eng.caf32927f0a9ac294d00.pdf",
     "static/media/immagineSito.jpg": "/my-site/static/media/immagineSito.e879f47668a719ccaf6d.jpg",
     "index.html": "/my-site/index.html",
-    "main.2e74706f.css.map": "/my-site/static/css/main.2e74706f.css.map",
-    "main.fc32c0af.js.map": "/my-site/static/js/main.fc32c0af.js.map",
+    "main.803b6491.css.map": "/my-site/static/css/main.803b6491.css.map",
+    "main.c51843e6.js.map": "/my-site/static/js/main.c51843e6.js.map",
     "488.0f79a0a3.chunk.js.map": "/my-site/static/js/488.0f79a0a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e74706f.css",
-    "static/js/main.fc32c0af.js"
+    "static/css/main.803b6491.css",
+    "static/js/main.c51843e6.js"
   ]
 }
