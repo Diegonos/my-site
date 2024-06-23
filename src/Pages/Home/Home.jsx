@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import immagineSito from "../../assets/immagineSito.jpg";
 import cvIta from "../../assets/Diego_Nosari_CV_ita.pdf";
 import cvEng from "../../assets/Diego_Nosari_CV_eng.pdf";
-import { FaLinkedin, FaFileDownload } from 'react-icons/fa'; 
+import { FaLinkedin, FaFileDownload, FaGithub } from 'react-icons/fa'; 
 
 function Home() {
     const { t } = useTranslation();
@@ -27,9 +27,12 @@ function Home() {
                     alt="MyImage"
                     className="rounded-xl mt-8 lg:mt-12 w-auto h-auto max-h-60 max-w-full"
                 />
-                <div className="mt-4 flex flex-col items-center">
+                <div className="mt-4 flex flex-row items-center">
                     <a href="https://www.linkedin.com/in/diego-nosari/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-lighter">
                         <FaLinkedin size={32} />
+                    </a>
+                    <a href="https://github.com/Diegonos/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-lighter ml-4">
+                        <FaGithub size={32} />
                     </a>
                 </div>
                 <div className="relative mt-3">
