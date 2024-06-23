@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="bg-primary p-4">
       <div className="flex justify-between items-center px-4">
-        <Link className="text-white text-xl font-bold ml-5" to="/">Diego Nosari</Link>
+        <Link className="text-white text-xl font-bold ml-5" to="/my-site">Diego Nosari</Link>
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="navbar-toggler focus:outline-none">
             <FaBars className="text-white" size={24} />
@@ -25,9 +25,8 @@ const Navbar = () => {
               <LanguageSelector />
               <div className="mt-4">
                 <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/">{t('profile.title')}</Link>
-                <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/about">About</Link>
-                <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/services">Services</Link>
-                <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/contact">Contact</Link>
+                <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/jobs">{t('jobs.title')}</Link>
+                <Link onClick={toggleMenu} className="text-gray-800 text-lg block py-2 hover:text-blue-200 transition duration-300" to="/my-site/education">{t('education.title')}</Link>
               </div>
             </div>
           )}
@@ -36,9 +35,8 @@ const Navbar = () => {
           <LanguageSelector />
           <div className="flex space-x-4">
             <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/">{t('profile.title')}</Link>
-            <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/about">About</Link>
-            <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/services">Services</Link>
-            <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/contact">Contact</Link>
+            <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/jobs">{t('jobs.title')}</Link>
+            <Link className="text-white text-lg px-3 py-2 hover:text-blue-200 transition duration-300" to="/my-site/education">{t('education.title')}</Link>
           </div>
         </div>
       </div>
