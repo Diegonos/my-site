@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import EduExperienceItem from "../../components/EduExperienceItem/EduExperienceItem";
 import UdemyCourseItem from "../../components/UdemyCourseItem/UdemyCourseItem";
 import cypressCertificate from "../../assets/UdemyCertificateCypress.pdf";
+import unitTestingCertificate from "../../assets/UdemyCertificateUnitTesting.pdf";
 
 function Education() {
     const { t } = useTranslation();
@@ -18,7 +19,12 @@ function Education() {
             </ul>
             <h2 className="text-3xl font-bold mb-4 mt-14 lg:mb-14">{t('education.title2')}</h2>
             <ul className="flex flex-col">
-                <UdemyCourseItem testo={"Cypress End-to-End Testing - Getting Started"} sottotesto={"Author: Maximilian Schwarzmüller"} pdfPath={cypressCertificate}/>
+                <div className="border-b border-gray-200">
+                    <UdemyCourseItem testo={"Cypress End-to-End Testing - Getting Started"} sottotesto={"Author: Maximilian Schwarzmüller"} pdfPath={cypressCertificate}/>
+                </div>
+            </ul>
+            <ul className="flex flex-col">
+                <UdemyCourseItem testo={"JavaScript Unit Testing - The Practical Guide"} sottotesto={"Author: Maximilian Schwarzmüller"} pdfPath={unitTestingCertificate}/>
             </ul>
         </div>
     );
