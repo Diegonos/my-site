@@ -4,6 +4,7 @@ import EduExperienceItem from "../../components/EduExperienceItem/EduExperienceI
 import UdemyCourseItem from "../../components/UdemyCourseItem/UdemyCourseItem";
 import cypressCertificate from "../../assets/UdemyCertificateCypress.pdf";
 import unitTestingCertificate from "../../assets/UdemyCertificateUnitTesting.pdf";
+import unitAICertificate from "../../assets/UdemyCertificateAI.pdf";
 
 function Education() {
     const { t } = useTranslation();
@@ -25,6 +26,9 @@ function Education() {
             </ul>
             <ul className="flex flex-col">
                 <UdemyCourseItem testo={"JavaScript Unit Testing - The Practical Guide"} sottotesto={"Author: Maximilian Schwarzmüller"} pdfPath={unitTestingCertificate}/>
+            </ul>
+            <ul className="flex flex-col">
+                <UdemyCourseItem testo={"All of AI: ChatGPT, Midjourney, Stable Diffusion & App Dev"} sottotesto={"Author: Arnold Oberleiter"} pdfPath={unitAICertificate}/>
             </ul>
         </div>
     );
