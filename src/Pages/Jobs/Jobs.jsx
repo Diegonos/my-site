@@ -9,6 +9,9 @@ function Jobs() {
             <h2 className="text-3xl font-bold mb-4 lg:mb-14">{t('profile.title2')}</h2>
             <ul className="flex flex-col">
                 <div className="border-b border-gray-200">
+                    <JobExperienceItem testo={"Frontend developer - Reply Connect - Full time"} sottotesto={t('profile.replyConnectDates')} desc={t('profile.replyDesc')} tags={["React", "React native", "Git", "Javascript", "Typescript"]}/>
+                </div>
+                <div className="border-b border-gray-200">
                     <JobExperienceItem testo={"Frontend developer - Skill SRL - Full time"} sottotesto={t('profile.skillDates')} desc={t('profile.skillDesc')} tags={["React", "Git", "GitLab", "CSS", "SQL", "Javascript", "Typescript", "Java", "Cypress", "Postman"]}/>
                 </div>
                 <div className="border-b border-gray-200">
